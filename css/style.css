@@ -1,0 +1,189 @@
+:root {
+  --brand-color-blue: #2196f3;
+  --brand-color-background: #2f303a;
+  --brand-color-black: #212121;
+  --brand-color-grey: #f5f4fa;
+  --brand-color-white: #ffffff;
+  --brand-color-text-grey: #757575;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--brand-color-black);
+}
+.bottom-contact {
+  background-color: var(--brand-color-background);
+}
+.contact-address {
+  color: var(--brand-color-white);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.contact-link-bottom {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.contact-link-bottom:hover {
+  color: var(--brand-color-blue);
+}
+.contact-link {
+  color: var(--brand-color-text-grey);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--brand-color-blue);
+}
+.filter {
+  list-style-type: none;
+}
+.filter-name {
+  color: var(--brand-color-black);
+  background-color: var(--brand-color-grey);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.filter-name:hover,
+.filter-name:focus {
+  color: var(--brand-color-white);
+  background-color: var(--brand-color-blue);
+}
+.list {
+  list-style-type: none;
+}
+.menu {
+  background-color: var(--brand-color-white);
+}
+.menu-link-logo-top {
+  color: #000;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.menu-link-logo-bottom {
+  color: var(--brand-color-white);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.menu-logo {
+  color: var(--brand-color-blue);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.motto {
+  background-color: var(--brand-color-background);
+}
+.motto-text {
+  color: var(--brand-color-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.navigation-link {
+  color: var(--brand-color-black);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--brand-color-blue);
+}
+
+.order {
+  color: var(--brand-color-white);
+  background-color: var(--brand-color-blue);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.our-strengths-name {
+  color: var(--brand-color-black);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.our-strengths-text {
+  color: var(--brand-color-text-grey);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.our-work-text {
+  color: var(--brand-color-black);
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.our-team {
+  background-color: var(--brand-color-grey);
+}
+.our-team-text {
+  color: var(--brand-color-black);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.our-team-name {
+  color: var(--brand-color-black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.our-team-job {
+  color: var(--brand-color-text-grey);
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.portfolio-item {
+  background-color: var(--brand-color-white);
+  color: var(--brand-color-black);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-type {
+  color: var(--brand-color-text-grey);
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
