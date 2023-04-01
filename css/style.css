@@ -11,6 +11,10 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--brand-color-black);
 }
+* {
+  padding: 0;
+  margin: 0;
+}
 .bottom-contact {
   background-color: var(--brand-color-background);
 }
@@ -38,6 +42,8 @@ body {
   line-height: 1.1;
   text-decoration: none;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -63,9 +69,13 @@ body {
 }
 .list {
   list-style-type: none;
+  display: flex;
+  column-gap: 46px;
 }
 .menu {
   background-color: var(--brand-color-white);
+  display: flex;
+  align-items: center;
 }
 .menu-link-logo-top {
   color: #000;
@@ -75,6 +85,8 @@ body {
   line-height: 1.2;
   text-decoration: none;
   letter-spacing: 0.03em;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .menu-link-logo-bottom {
   color: var(--brand-color-white);
@@ -104,6 +116,11 @@ body {
   line-height: 1.37;
   letter-spacing: 0.06em;
   text-align: center;
+  max-width: 696px;
+}
+.navigation {
+  padding-left: 93px;
+  padding-right: 371px;
 }
 .navigation-link {
   color: var(--brand-color-black);
@@ -112,6 +129,8 @@ body {
   line-height: 1.15;
   text-decoration: none;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -127,6 +146,15 @@ body {
   line-height: 1.8;
   text-align: center;
   letter-spacing: 0.06em;
+  margin: 30px 600px 200px 600px;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+}
+.our-strenghts {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 30px;
 }
 .our-strengths-name {
   color: var(--brand-color-black);
@@ -148,6 +176,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-bottom: 50px;
 }
 .our-team {
   background-color: var(--brand-color-grey);
@@ -159,6 +188,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-bottom: 50px;
 }
 .our-team-name {
   color: var(--brand-color-black);
@@ -166,12 +196,14 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  padding: 30px 99px 10px 99px;
 }
 .our-team-job {
   color: var(--brand-color-text-grey);
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  padding: 0 99px 59px 99px;
 }
 .portfolio-item {
   background-color: var(--brand-color-white);
@@ -186,4 +218,29 @@ body {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.our-work-list {
+  list-style-type: none;
+  display: flex;
+  column-gap: 30px;
+  justify-content: space-around;
+}
+.our-team-list {
+  list-style-type: none;
+  display: flex;
+  column-gap: 30px;
+  justify-content: space-around;
+}
+.our-team-item {
+  background-color: var(--brand-color-white);
 }
