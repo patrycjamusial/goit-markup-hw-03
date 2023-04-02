@@ -46,6 +46,11 @@ body {
 .contact-link-bottom:hover {
   color: var(--brand-color-blue);
 }
+.contackt-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+}
 .contact-link {
   color: var(--brand-color-text-grey);
   font-weight: 500;
@@ -243,12 +248,17 @@ body {
   border-style: solid;
   border-width: 1px;
   border-color: rgba(238, 238, 238, 1);
+  padding-bottom: 20px;
+}
+.portfolio-img {
+  display: block;
 }
 .list-portfolio {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
   gap: 30px;
+  margin-bottom: 94px;
 }
 
 .portfolio-name {
@@ -268,7 +278,9 @@ body {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
-  padding: 0, 24px, 20px, 24px;
+  padding-top: 0;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 .container {
   width: 100%;
