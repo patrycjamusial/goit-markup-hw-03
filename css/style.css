@@ -104,9 +104,19 @@ body {
   background-color: var(--brand-color-white);
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: rgba(236, 236, 236, 1);
+}
+.motto-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 106px;
+  padding-top: 106px;
 }
 .menu-link-logo-top {
   color: #000;
@@ -142,6 +152,10 @@ body {
 }
 .motto {
   background-color: var(--brand-color-background);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .motto-text {
   color: var(--brand-color-white);
@@ -152,9 +166,6 @@ body {
   text-align: center;
   max-width: 696px;
   padding-top: 106px;
-}
-.navigation {
-  padding-left: 93px;
 }
 .navigation-link {
   color: var(--brand-color-black);
